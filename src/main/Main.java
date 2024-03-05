@@ -1,5 +1,10 @@
-public class App {
+package main;
+
+import view.Frame;
+
+public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Frame mainframe = new Frame("García Gutierrez Juan Antonio - 19130158 - LEXICO");
+        mainframe.setVisible(true);
     }
 }
